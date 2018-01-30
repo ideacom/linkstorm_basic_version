@@ -1,0 +1,43 @@
+/* pages/index/map/map.wxss */
+.map{
+  width: 100%;
+  height: 100%;
+}
+map{
+  width: 100%;
+  height: 990rpx;
+}
+.content{
+  padding: 5%;
+  position: relative;
+}
+.c-left{
+  width: 75%;
+  display: inline-block;
+}
+.title{
+  font-size: 40rpx;
+  display: block;
+  color: #49484B;
+}
+.text{
+  font-size: 26rpx;
+  font-weight: 200;
+  color: #97959C;
+  display: block;
+}
+navigator{
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border: 8rpx solid #25A136;
+  border-radius: 60rpx;
+  background: #FFFFFF;
+  font-size: 26rpx;
+  color: #25A136;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 80%;
+  top: 25%;
+}

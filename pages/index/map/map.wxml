@@ -1,0 +1,11 @@
+<!--pages/index/map/map.wxml-->
+<view class='map'>
+    <map longitude="113.400151" latitude="22.570233"></map>
+</view>
+<view class='content'>
+    <view class='c-left'>
+        <text class='title'>注艺餐厅(龙井街店)</text>
+        <text class='text'>广东省中山市石岐区街道龙井南路2号首层2卡(置贤创业创意科技大厦附近)</text>
+    </view>
+    <navigator url='../index'>返回</navigator>
+</view>

@@ -1,0 +1,10 @@
+<!--pages/welcome/welcome.wxml-->
+<view id='container' style='background: #fff url({{bgurl}}) 0 0 no-repeat; background-size: 100%;'>
+    <view id='logo'>
+        <image src='{{logo}}'></image>
+        <text>{{hello}}</text>
+    </view> 
+    <view id='eText'>
+        <button bindtap='enter'style='color:{{color}};border:{{border}};'>{{eText}}</button>
+    </view>
+</view>

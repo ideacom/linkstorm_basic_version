@@ -1,0 +1,61 @@
+<!--pages/index/index.wxml-->
+<view id='container'>
+    <view id='header'>
+        <view id='headerLeft'>
+            <text class='headerTitle'>{{headerTitleTop}}</text>
+            <text class='headerTitle'>{{headerTitleBottom}}</text>
+            <text id='headerTitleTip'>{{headerTitleTip}}</text>
+        </view>
+        <view id='headerRight'>
+            <image src='{{headerRightImg}}'></image>
+        </view> 
+    </view>
+    <view id='title'>
+        <view class='items'>
+            <image src='{{itemsImg1}}'></image>
+            <text>{{itemsText1}}</text>
+            <button>{{itemsBtn1}}</button>
+        </view>
+        <view class='items' id='items'>
+            <image src='{{itemsImg2}}'></image>
+            <text>{{itemsText2}}</text>
+            <button>{{itemsBtn2}}</button>
+        </view>
+    </view>
+    <view id='contact'>
+        <view class='contactContent'>
+            <image src='{{contactIcon1}}'></image>
+            <navigator url='./map/map'><text>{{contactText1}}</text></navigator>
+            <image class='rimage' src='{{contactArrow1}}'></image>
+        </view>
+        <view class='contactContent'>
+            <image src='{{contactIcon2}}'></image>
+            <text>{{contactText2}}</text>
+        </view>
+        <view class='contactContent'>
+            <image src='{{contactIcon3}}'></image>
+            <navigator bindtap='makePhoneCall'><text>{{contactText3}}</text></navigator>
+            <image class='rimage' src='{{contactArrow3}}'></image>
+        </view>
+        <view class='contactContent'>
+            <image src='{{contactIcon4}}'></image>
+            <text>{{contactText4}}</text>
+        </view>
+    </view>
+    <view id='footerImages'>
+        <scroll-view class='scroll' scroll-x="true">
+            <view class='images'>
+                <image src='./images/p1.jpg'></image>
+            </view> 
+            <view class='images'>
+                <image src='./images/p2.jpg'></image>
+            </view>
+            <view class='images'>
+                <image src='./images/p3.jpg'></image>
+            </view>
+            <view class='images'>
+                <image src='./images/p4.jpg'></image>
+            </view>
+        </scroll-view>
+    </view> 
+</view>
